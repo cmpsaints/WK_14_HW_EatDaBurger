@@ -6,8 +6,8 @@ body {
 }
 
 header {
-	background: darkcyan;
 	margin: 0;
+	padding-left: 18vw;
 	height: 50px;
 	display: flex;
 	align-items: center;
@@ -16,7 +16,7 @@ header {
 h1 {
 	margin: 0 0 0 150px;
 	color: black;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 span {
@@ -32,12 +32,12 @@ button {
 	display: inline;
 }
 
-.devour-burger-form {
-	display: inline;
-}
-
 #burgers-container {
 	display: flex;
+}
+
+.eaten-burger-form {
+	display: inline;
 }
 
 #burgers-available {
@@ -47,14 +47,16 @@ button {
 	margin: 1em 1em 1em 0;
 }
 
-#burgers-devoured {
+#burgers-eaten {
 	flex-grow: 1;
-	background: lightgray;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
 	padding: 0.5em 1em 2em 2em;
 	margin: 1em 0 1em 1em;
 }
 
-#burgers-devoured h2, #burgers-devoured div {
+#burgers-eaten h2, #burgers-eaten div {
 	color: slategray;
 }
 
@@ -70,7 +72,7 @@ h1 {
 #create-burger {
 	display: flex;
 	justify-content: center;
-	padding-top: 40px;
+	padding-top: 80px;
 	padding-bottom: 50px;
 }
 
@@ -78,23 +80,23 @@ h1 {
 	line-height: 3;
 }
 
-.eat-btn {
-	margin-right: 0.5em;
-	padding: 1px 5px 1px 5px;
-	border-radius: 4px;
-}
-
 #submit-btn {
 	padding: 0.2em 0.6em 0.2em 0.6em;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	background: slategray;
 	border: none;
 	margin-left: -5px;
 }
 
+.eat-btn {
+	margin-right: 0.5em;
+	padding: 1px 5px 1px 5px;
+	background: green;
+	border-color: green;
+	border-radius: 4px;
+}
+
 #burger-name {
 	padding: 0.1em 0.6em 0.1em 0.6em;
-	font-size: 1.4em;
-	font-style: italic;
-	background: lightgray;
+	font-size: 1.2em;
 }

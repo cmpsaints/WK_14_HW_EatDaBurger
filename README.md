@@ -4,7 +4,7 @@ App that allows user to create custom burgers, eat them, and view both eaten & u
 
 ## Live App
 
-http://wk-14-hw-eatdaburger.herokuapp.com/
+***
 
 ## Screenshot
 

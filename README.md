@@ -7,7 +7,7 @@ App that allows user to create custom burgers, eat them, and view both eaten & u
 
 ## Screenshot
 
-![screenshot 2019-01-12 17 20 18](https://github.com/cmpsaints/WK_14_HW_EatDaBurger/blob/master/screenshots/EatDaBurger.jpg)
+![screenshot 2019-01-12](https://github.com/cmpsaints/WK_14_HW_EatDaBurger/blob/master/screenshots/EatDaBurger.jpg)
 
 ## Instructions
 Create & add burgers and eat them. Eaten burgers are shown on the right.
